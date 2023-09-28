@@ -1,0 +1,805 @@
+---
+MainSourceFile:  MainSrcFiles_placehold
+Replacements:
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          1658
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          1734
+    Length:          0
+    ReplacementText: "\n#include <dpct/fft_utils.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          1757
+    Length:          26
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          1783
+    Length:          19
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          1802
+    Length:          21
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          1877
+    Length:          0
+    ReplacementText: "\n#include <dpct/lib_common_utils.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          1908
+    Length:          6
+    ReplacementText: 'sycl::float2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          1931
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          1942
+    Length:          9
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          2003
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          2014
+    Length:          9
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          2075
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          2086
+    Length:          9
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          2147
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          2280
+    Length:          0
+    ReplacementText: ",\n                                                   const sycl::nd_item<3> &item_ct1"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          3545
+    Length:          13
+    ReplacementText: 'h_signal[i].x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          3604
+    Length:          13
+    ReplacementText: 'h_signal[i].y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          3884
+    Length:          20
+    ReplacementText: 'h_filter_kernel[i].x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          3950
+    Length:          20
+    ReplacementText: 'h_filter_kernel[i].y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4351
+    Length:          58
+    ReplacementText: 'DPCT_CHECK_ERROR(d_signal = (Complex *)sycl::malloc_device(mem_size, dpct::get_default_queue()))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4469
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_default_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4515
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4540
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4643
+    Length:          65
+    ReplacementText: 'DPCT_CHECK_ERROR(d_filter_kernel = (Complex *)sycl::malloc_device(mem_size, dpct::get_default_queue()))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4762
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_default_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4822
+    Length:          53
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4876
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4909
+    Length:          11
+    ReplacementText: 'dpct::fft::fft_engine_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          4945
+    Length:          42
+    ReplacementText: 'DPCT_CHECK_ERROR(plan = dpct::fft::fft_engine::create(&dpct::get_default_queue(), new_size, dpct::fft::fft_type::complex_float_to_complex_float, 1))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          5022
+    Length:          11
+    ReplacementText: 'dpct::fft::fft_engine_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          5124
+    Length:          22
+    ReplacementText: 'DPCT_CHECK_ERROR(plan_adv = dpct::fft::fft_engine::create())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          5149
+    Length:          0
+    ReplacementText: "  /*\n  DPCT1100:14: Currently the DFT external workspace feature in the Intel(R) oneAPI Math Kernel Library (oneMKL) is only supported on GPU devices. Use the internal workspace if your code should run on non-GPU devices.\n  */\n  /*\n  DPCT1099:15: Verify if the default value of the direction and placement used in the function \"commit\" is correct.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          5167
+    Length:          198
+    ReplacementText: 'DPCT_CHECK_ERROR(plan_adv->commit(&dpct::get_default_queue(), 1, &new_size_long, NULL, 1, 1, dpct::library_data_t::complex_float, NULL, 1, 1, dpct::library_data_t::complex_float, 1, &workSize))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          5525
+    Length:          183
+    ReplacementText: 'DPCT_CHECK_ERROR((plan->compute<sycl::float2, sycl::float2>(reinterpret_cast<sycl::float2 *>(d_signal), reinterpret_cast<sycl::float2 *>(d_signal), dpct::fft::fft_direction::forward)))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          5729
+    Length:          152
+    ReplacementText: 'DPCT_CHECK_ERROR((plan_adv->compute<sycl::float2, sycl::float2>(reinterpret_cast<sycl::float2 *>(d_filter_kernel), reinterpret_cast<sycl::float2 *>(d_filter_kernel), dpct::fft::fft_direction::forward)))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          6012
+    Length:          137
+    ReplacementText: "dpct::get_default_queue().parallel_for(\n    sycl::nd_range<3>(sycl::range<3>(1, 1, 32) * sycl::range<3>(1, 1, 256), sycl::range<3>(1, 1, 256)), \n    [=](sycl::nd_item<3> item_ct1) {\n      ComplexPointwiseMulAndScale(d_signal, d_filter_kernel, new_size, 1.0f / new_size, item_ct1);\n    });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          6149
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          6381
+    Length:          183
+    ReplacementText: 'DPCT_CHECK_ERROR((plan->compute<sycl::float2, sycl::float2>(reinterpret_cast<sycl::float2 *>(d_signal), reinterpret_cast<sycl::float2 *>(d_signal), dpct::fft::fft_direction::backward)))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          6667
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_default_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          6716
+    Length:          53
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          6770
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          7308
+    Length:          18
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::fft::fft_engine::destroy(plan))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          7347
+    Length:          22
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::fft::fft_engine::destroy(plan_adv))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          7543
+    Length:          18
+    ReplacementText: 'DPCT_CHECK_ERROR(sycl::free(d_signal, dpct::get_default_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          7561
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          7582
+    Length:          25
+    ReplacementText: 'DPCT_CHECK_ERROR(sycl::free(d_filter_kernel, dpct::get_default_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          7607
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9272
+    Length:          20
+    ReplacementText: 'filtered_signal[i].x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9295
+    Length:          20
+    ReplacementText: 'filtered_signal[i].y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9858
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9869
+    Length:          9
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9943
+    Length:          3
+    ReplacementText: 'c.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9949
+    Length:          3
+    ReplacementText: 'a.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9955
+    Length:          3
+    ReplacementText: 'b.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9962
+    Length:          3
+    ReplacementText: 'c.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9968
+    Length:          3
+    ReplacementText: 'a.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          9974
+    Length:          3
+    ReplacementText: 'b.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10018
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10029
+    Length:          9
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10103
+    Length:          3
+    ReplacementText: 'c.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10113
+    Length:          3
+    ReplacementText: 'a.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10120
+    Length:          3
+    ReplacementText: 'c.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10130
+    Length:          3
+    ReplacementText: 'a.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10183
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10194
+    Length:          9
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10268
+    Length:          3
+    ReplacementText: 'c.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10274
+    Length:          3
+    ReplacementText: 'a.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10280
+    Length:          3
+    ReplacementText: 'b.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10286
+    Length:          3
+    ReplacementText: 'a.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10292
+    Length:          3
+    ReplacementText: 'b.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10299
+    Length:          3
+    ReplacementText: 'c.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10305
+    Length:          3
+    ReplacementText: 'a.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10311
+    Length:          3
+    ReplacementText: 'b.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10317
+    Length:          3
+    ReplacementText: 'a.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10323
+    Length:          3
+    ReplacementText: 'b.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10386
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10532
+    Length:          0
+    ReplacementText: ",\n                                                   const sycl::nd_item<3> &item_ct1"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10561
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10574
+    Length:          9
+    ReplacementText: 'item_ct1.get_group_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10608
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10621
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Offset:          10634
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu'
+    Digest:          446aac77940844df7e1f72229d20fe18
+DpctVersion:     17.0.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/home/tcs2/Avijit/cuda-samples'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/home/tcs2/Avijit/cuda-samples/Samples/4_CUDA_Libraries/simpleCUFFT'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitClNamespace:
+    Value:           'false'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...
